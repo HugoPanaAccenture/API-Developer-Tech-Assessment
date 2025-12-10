@@ -1,0 +1,35 @@
+{
+  "name": "api-developer-tech-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "test": "test",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/main.ts",
+    "lint": "eslint 'src/**/*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/HugoPanaAccenture/API-Developer-Tech-Assessment.git"
+  },
+  "author": "Hugo Pena Cabarcos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HugoPanaAccenture/API-Developer-Tech-Assessment/issues"
+  },
+  "homepage": "https://github.com/HugoPanaAccenture/API-Developer-Tech-Assessment#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.10.2",
+    "nodemon": "^3.1.11",
+    "prettier": "^3.7.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
