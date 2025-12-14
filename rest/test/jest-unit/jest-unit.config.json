@@ -1,0 +1,41 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": "../..",
+  "testRegex": ".*\\.spec\\.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "collectCoverageFrom": [
+    "<rootDir>/rest/src/**"
+  ],
+  "coverageDirectory": "<rootDir>/rest/coverage/unit",
+  "testEnvironment": "node",
+  "coveragePathIgnorePatterns": [
+    "rest/src/main\\.ts$"
+  ],
+  "testPathIgnorePatterns": [
+    "/node_modules/"
+  ],
+  "coverageReporters": [
+    "json",
+    "lcov",
+    "clover"
+  ],
+  "reporters": [
+    "default",
+    [
+      "jest-junit",
+      {
+        "outputDirectory": "./report",
+        "outputName": "junit-unit.xml",
+        "suiteNameTemplate": "{filepath}",
+        "classNameTemplate": "{classname}",
+        "titleTemplate": "{title}"
+      }
+    ]
+  ]
+}
