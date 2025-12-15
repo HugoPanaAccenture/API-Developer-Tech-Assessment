@@ -170,12 +170,11 @@ Screenshots demonstrating:
 - Test execution
 - Postman Collection for REST API
 
-Should be added to the `docs/` folder.
-
 ```
 docs/
 ├── 200-greet-API.png
 ├── 200-health-API.png
+├── Tech Assessment.postman_collection.json
 └── test-execution.png
 ```
 
