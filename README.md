@@ -26,10 +26,8 @@ tests/
 ### High‑level Architecture
 
 - **Express.js** handles HTTP requests for the REST API
-- **Domain-driven approach** for business logic
 - **Zod** for request validation
 - **Jest** for testing
-- **MCP SDK** for exposing tools via the Model Context Protocol
 
 ---
 
