@@ -172,6 +172,13 @@ Screenshots demonstrating:
 
 Should be added to the `docs/` folder.
 
+```
+docs/
+├── 200-greet-API.png
+├── 200-health-API.png
+└── test-execution.png
+```
+
 ---
 
 ## Assumptions & Design Decisions
