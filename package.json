@@ -5,9 +5,10 @@
   "main": "main.ts",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/main.js",
+    "start:rest": "node dist/main.js",
     "dev:rest": "nodemon --watch 'rest/src/**/*.ts' --exec 'ts-node' rest/src/main.ts",
     "lint:rest": "eslint 'rest/**/*.ts'",
+    "test": "npm run test:cov:unit",
     "test:unit": "jest --config ./rest/test/jest-unit/jest-unit.config.json --detectOpenHandles",
     "test:cov:unit": "jest --config ./rest/test/jest-unit/jest-unit.config.json --coverage --detectOpenHandles"
   },
