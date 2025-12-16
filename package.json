@@ -5,7 +5,7 @@
   "main": "main.ts",
   "scripts": {
     "build": "tsc",
-    "start:rest": "node dist/main.js",
+    "start:rest": "node dist/src/main.js",
     "dev:rest": "nodemon --watch 'rest/src/**/*.ts' --exec 'ts-node' rest/src/main.ts",
     "lint:rest": "eslint 'rest/**/*.ts'",
     "test": "npm run test:cov:unit",
