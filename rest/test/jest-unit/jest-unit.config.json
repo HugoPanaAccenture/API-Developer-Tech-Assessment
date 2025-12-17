@@ -12,7 +12,7 @@
   "collectCoverageFrom": [
     "<rootDir>/rest/src/**"
   ],
-  "coverageDirectory": "<rootDir>/rest/coverage/unit",
+  "coverageDirectory": "<rootDir>/coverage/unit",
   "testEnvironment": "node",
   "coveragePathIgnorePatterns": [
     "rest/src/main\\.ts$"
@@ -30,7 +30,7 @@
     [
       "jest-junit",
       {
-        "outputDirectory": "./report",
+        "outputDirectory": "../../report",
         "outputName": "junit-unit.xml",
         "suiteNameTemplate": "{filepath}",
         "classNameTemplate": "{classname}",
